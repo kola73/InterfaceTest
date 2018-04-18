@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="param">
+    <test name="param1">
+        <classes>
+            <parameter name="name" value="kola"/>
+            <parameter name="age" value="18"/>
+
+            <class name="com.imooc.testng.parameter.Parameter"/>
+        </classes>
+    </test>
+</suite>

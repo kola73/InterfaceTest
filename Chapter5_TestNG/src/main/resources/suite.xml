@@ -14,5 +14,4 @@
             <class name="com.imooc.testng.suite.PayTest"/>
         </classes>
     </test>
-
 </suite>

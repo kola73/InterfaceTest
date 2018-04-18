@@ -4,7 +4,7 @@
     <test name="login">
         <classes>
             <class name="com.imooc.testng.suite.Suite"/>
-                <class name="com.imooc.testng.suite.LoginTest"/>
+            <class name="com.imooc.testng.suite.LoginTest"/>
         </classes>
     </test>
 

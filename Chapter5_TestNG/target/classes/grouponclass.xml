@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="grouponclass">
+    <test name="testgroup">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.imooc.testng.group.GroupOnClass1"/>
+            <class name="com.imooc.testng.group.GroupOnClass2"/>
+            <class name="com.imooc.testng.group.GroupOnClass3"/>
+        </classes>
+    </test>
+</suite>
