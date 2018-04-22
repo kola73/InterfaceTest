@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96c25970-8f0f-4712-820d-97019cd47ca3" name="Default" comment="testng demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5_TestNG/Chapter5_TestNG/Chapter5_TestNG.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5_TestNG/src/main/java/com/imooc/testng/TimeOutTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5_TestNG/src/main/java/com/imooc/testng/multiThread/MultiThreadOnMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5_TestNG/src/main/java/com/imooc/testng/multiThread/MultiThreadOnXml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5_TestNG/src/main/resources/multiThread.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6_extentreport/Chapter6_extentreport.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6_extentreport/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6_extentreport/src/main/java/com/imooc/extent/AssertDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6_extentreport/src/main/java/com/imooc/extent/ExtentTestNGIReporterListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6_extentreport/src/main/resources/testng.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InterfaceDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5_TestNG/target/classes/com/imooc/testng/parameter/DataProviderTest.class" afterPath="$PROJECT_DIR$/Chapter5_TestNG/target/classes/com/imooc/testng/parameter/DataProviderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5_TestNG/pom.xml" afterPath="$PROJECT_DIR$/Chapter5_TestNG/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6_extentreport/src/main/resources/testng.xml" afterPath="$PROJECT_DIR$/Chapter6_extentreport/src/main/resources/testng.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6_extentreport/test-output/index.html" afterPath="$PROJECT_DIR$/Chapter6_extentreport/test-output/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter5_TestNG/target/" />
     <ignored path="$PROJECT_DIR$/TestNG_Demo/target/" />
@@ -53,8 +23,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter6_extentreport/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+            <state relative-caret-position="297">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -595,7 +565,7 @@
       <workItem from="1524148126304" duration="6449000" />
       <workItem from="1524322582013" duration="594000" />
       <workItem from="1524380108287" duration="1373000" />
-      <workItem from="1524384383043" duration="5336000" />
+      <workItem from="1524384383043" duration="6148000" />
     </task>
     <task id="LOCAL-00001" summary="testng demo">
       <created>1523978483167</created>
@@ -608,9 +578,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__InterfaceDemo_Chapter5_TestNG_src_main_resources_multiThread_xml - 2018.04.19 at 23h 45m 50s.xml">
-      <configuration name="D:/InterfaceDemo/Chapter5_TestNG/src/main/resources/multiThread.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__InterfaceDemo_Chapter5_TestNG_src_main_resources_multiThread_xml - 2018.04.19 at 23h 47m 21s.xml">
       <configuration name="D:/InterfaceDemo/Chapter5_TestNG/src/main/resources/multiThread.xml" configurationId="TestNG" />
     </history-entry>
@@ -621,6 +588,9 @@
       <configuration name="D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="D__InterfaceDemo_Chapter6_extentreport_src_main_resources_testng_xml - 2018.04.22 at 22h 04m 54s.xml">
+      <configuration name="D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__InterfaceDemo_Chapter6_extentreport_src_main_resources_testng_xml - 2018.04.22 at 22h 20m 37s.xml">
       <configuration name="D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="MultiThreadOnXml - 2018.04.19 at 23h 45m 42s.xml">
@@ -640,10 +610,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34372000" />
+    <option name="totallyTimeSpent" value="35184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -658,7 +629,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25701943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25701943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1053,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6_extentreport/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        <state relative-caret-position="297">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>
