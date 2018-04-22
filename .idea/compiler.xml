@@ -10,6 +10,7 @@
         <module name="Chapter5_TestNG" />
         <module name="Chapter6_ExtentReport" />
         <module name="Chapter6_extentreport" />
+        <module name="Chapter7_Moco" />
         <module name="InterfaceDemo" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="Chapter5_TestNG" target="1.5" />
       <module name="Chapter6_ExtentReport" target="1.5" />
       <module name="Chapter6_extentreport" target="1.6" />
+      <module name="Chapter7_Moco" target="1.5" />
       <module name="InterfaceDemo" target="1.5" />
       <module name="TestNG_Demo" target="1.5" />
     </bytecodeTargetLevel>
