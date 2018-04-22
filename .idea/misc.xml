@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/Chapter5_TestNG/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter6_extentreport/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ 多线程级别是方法级别的，线程数为2
+ methods级别：所有用例都能在不同的线程下去执行
+ tests级别：
+ 1）相同的test tag( 就是底下的demo2啦 <test name="demo2" >只能在相同的线程池去执行
+ 2）不同的test tag可以在不同的线程池去执行(底下的一个叫thread，一个叫demo2，正好符合不同的test tage）
+ classs级别：
+ 1）相同的class tag下的用例只能在同一个线程下执行
+ 2）不同的class tag下的用例可以在多个线程下执行
+ thread-count：最大并发线程数
+ xml文件这种配置方式不能指定线程池，只有方法上才可以指定线程池
+  -->
+<suite name="multiThreadTest" parallel="classs" thread-count="3">
+    <test name="thread">
+        <classes>
+            <class name="com.imooc.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+    <test name="demo2" >
+        <classes>
+            <class name="com.imooc.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+</suite>

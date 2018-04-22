@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chapter5_TestNG/Chapter5.iml" filepath="$PROJECT_DIR$/Chapter5_TestNG/Chapter5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5_TestNG/Chapter5_TestNG/Chapter5_TestNG.iml" filepath="$PROJECT_DIR$/Chapter5_TestNG/Chapter5_TestNG/Chapter5_TestNG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5_TestNG/Chapter6.iml" filepath="$PROJECT_DIR$/Chapter5_TestNG/Chapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5_TestNG/Chapter6_ExtentReport.iml" filepath="$PROJECT_DIR$/Chapter5_TestNG/Chapter6_ExtentReport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6_extentreport/Chapter6_extentreport.iml" filepath="$PROJECT_DIR$/Chapter6_extentreport/Chapter6_extentreport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceDemo.iml" filepath="$PROJECT_DIR$/InterfaceDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/InterfaceDemo.iml" filepath="$PROJECT_DIR$/.idea/InterfaceDemo.iml" />
     </modules>
   </component>
