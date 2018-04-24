@@ -8,5 +8,19 @@
     "response":{
       "text":"这是一个post请求啦"
     }
+  },
+  {
+    "description":"模拟一个带参数的post请求",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "forms":{
+        "name":"kola",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"我是一个带参的post请求啦"
+    }
   }
 ]

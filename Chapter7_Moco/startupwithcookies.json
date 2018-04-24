@@ -1,0 +1,15 @@
+[
+  {
+    "description":"这是一个带cookies的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "Login":"true"
+      }
+    },
+    "response":{
+      "text":"我是一个带cookies的get请求"
+    }
+  }
+]
