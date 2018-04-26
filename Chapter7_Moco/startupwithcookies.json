@@ -1,15 +1,36 @@
 [
   {
-    "description":"这是一个带cookies的get请求",
-    "request":{
-      "uri":"/get/with/cookies",
-      "method":"get",
-      "cookies":{
-        "Login":"true"
+    "description": "这是一个带cookies的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
       }
     },
-    "response":{
-      "text":"我是一个带cookies的get请求"
+    "response": {
+      "text": "我是一个带cookies的get请求"
+    }
+  },
+  {
+    "description": "这个一个带cookies的post请求",
+    "request": {
+      "uri": "/get/with/post",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "kola",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status":"300",
+      "json": {
+        "name":"kola",
+        "status":"1"
+      }
     }
   }
 ]
