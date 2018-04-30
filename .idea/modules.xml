@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter5_TestNG/Chapter6_ExtentReport.iml" filepath="$PROJECT_DIR$/Chapter5_TestNG/Chapter6_ExtentReport.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter6_extentreport/Chapter6_extentreport.iml" filepath="$PROJECT_DIR$/Chapter6_extentreport/Chapter6_extentreport.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter7_Moco/Chapter7_Moco.iml" filepath="$PROJECT_DIR$/Chapter7_Moco/Chapter7_Moco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter9_HttpClient/Chapter9_HttpClient.iml" filepath="$PROJECT_DIR$/Chapter9_HttpClient/Chapter9_HttpClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceDemo.iml" filepath="$PROJECT_DIR$/InterfaceDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/InterfaceDemo.iml" filepath="$PROJECT_DIR$/.idea/InterfaceDemo.iml" />
     </modules>

@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96c25970-8f0f-4712-820d-97019cd47ca3" name="Default" comment="testng demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter7_Moco/startupWithHeaders.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter7_Moco/startupWithRedirect.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter9_HttpClient/Chapter9_HttpClient.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter9_HttpClient/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter9_HttpClient/src/main/java/com/imooc/httpclient/MyHttpClient_Get.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7_Moco/startupwithcookies.json" afterPath="$PROJECT_DIR$/Chapter7_Moco/startupwithcookies.json" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter5_TestNG/target/" />
     <ignored path="$PROJECT_DIR$/TestNG_Demo/target/" />
@@ -14,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/Chapter6_extentreport/target/" />
     <ignored path="$PROJECT_DIR$/Chapter5_TestNG/Chapter5_TestNG/target/" />
     <ignored path="$PROJECT_DIR$/Chapter7_Moco/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter9_HttpClient/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="startupWithRedirect.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter7_Moco/startupWithRedirect.json">
+      <file leaf-file-name="MyHttpClient_Get.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter9_HttpClient/src/main/java/com/imooc/httpclient/MyHttpClient_Get.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="154">
+              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,6 +120,8 @@
         <option value="$PROJECT_DIR$/Chapter7_Moco/startupwithcookies.json" />
         <option value="$PROJECT_DIR$/Chapter7_Moco/startupWithHeaders.json" />
         <option value="$PROJECT_DIR$/Chapter7_Moco/startupWithRedirect.json" />
+        <option value="$PROJECT_DIR$/Chapter9_HttpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter9_HttpClient/src/main/java/com/imooc/httpclient/MyHttpClient_Get.java" />
       </list>
     </option>
   </component>
@@ -266,17 +278,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="InterfaceDemo" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Chapter5" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,13 +288,48 @@
             <path>
               <item name="InterfaceDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterfaceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter7_Moco" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9_HttpClient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InterfaceDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterfaceDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter7_Moco" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9_HttpClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9_HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9_HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter9_HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InterfaceDemo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Chapter5" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -333,13 +369,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml">
-    <configuration name="D:/InterfaceDemo/Chapter5_TestNG/src/main/resources/multiThread.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MyHttpClient_Get.getTest">
+    <configuration name="D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Chapter5" />
+      <module name="Chapter6_extentreport" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5_TestNG/src/main/resources/multiThread.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter6_extentreport/src/main/resources/testng.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -361,17 +397,22 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Chapter6_extentreport" />
+    <configuration name="MyHttpClient_Get.getTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Chapter9_HttpClient" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter6_extentreport/src/main/resources/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.imooc.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.httpclient.MyHttpClient_Get" />
+      <option name="METHOD_NAME" value="getTest" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -566,19 +607,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.D:/InterfaceDemo/Chapter5_TestNG/src/main/resources/multiThread.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testSuccess" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TimeOutTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testFailed" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testSuccess" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TimeOutTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testFailed" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.MyHttpClient_Get.getTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testFailed" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TimeOutTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testSuccess" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.D:/InterfaceDemo/Chapter5_TestNG/src/main/resources/multiThread.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MyHttpClient_Get.getTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.D:/InterfaceDemo/Chapter6_extentreport/src/main/resources/testng.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testFailed" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TimeOutTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TimeOutTest.testSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -610,7 +651,9 @@
       <workItem from="1524495129984" duration="4478000" />
       <workItem from="1524582032248" duration="3580000" />
       <workItem from="1524668713675" duration="3831000" />
-      <workItem from="1524755008538" duration="2289000" />
+      <workItem from="1524755008538" duration="2984000" />
+      <workItem from="1525070685489" duration="130000" />
+      <workItem from="1525071894055" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="testng demo">
       <created>1523978483167</created>
@@ -651,9 +694,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__InterfaceDemo_Chapter5_TestNG_src_main_resources_multiThread_xml - 2018.04.19 at 23h 47m 21s.xml">
-      <configuration name="D:/InterfaceDemo/Chapter5_TestNG/src/main/resources/multiThread.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__InterfaceDemo_Chapter5_TestNG_src_main_resources_multiThread_xml - 2018.04.19 at 23h 49m 50s.xml">
       <configuration name="D:/InterfaceDemo/Chapter5_TestNG/src/main/resources/multiThread.xml" configurationId="TestNG" />
     </history-entry>
@@ -672,6 +712,9 @@
     <history-entry file="MultiThreadTest_test2 - 2018.04.19 at 22h 48m 11s.xml">
       <configuration name="MultiThreadTest.test2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MyHttpClient_Get_getTest - 2018.04.30 at 20h 54m 03s.xml">
+      <configuration name="MyHttpClient_Get.getTest" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="TimeOutTest - 2018.04.20 at 00h 08m 59s.xml">
       <configuration name="TimeOutTest" configurationId="TestNG" />
     </history-entry>
@@ -683,14 +726,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54231000" />
+    <option name="totallyTimeSpent" value="57501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,10 +741,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3361045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2899568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.300216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -713,7 +756,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -764,27 +806,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter5_TestNG/src/main/java/com/imooc/testng/suite/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5_TestNG/src/main/java/com/imooc/testng/suite/PayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5_TestNG/src/main/java/com/imooc/testng/suite/Suite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5_TestNG/src/main/resources/suite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -962,13 +983,6 @@
     <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Chapter5_TestNG/Chapter5_TestNG/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/Chapter5_TestNG/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6_extentreport/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -994,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,15 +1059,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter7_Moco/startupWithRedirect.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="257">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5_TestNG/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9_HttpClient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar!/org/apache/http/client/HttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9_HttpClient/src/main/java/com/imooc/httpclient/MyHttpClient_Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
