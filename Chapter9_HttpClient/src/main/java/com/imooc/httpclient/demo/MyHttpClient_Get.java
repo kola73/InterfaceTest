@@ -1,4 +1,4 @@
-package com.imooc.httpclient;
+package com.imooc.httpclient.demo;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
