@@ -15,7 +15,7 @@ public class MyHttpClient_Get {
 //        用来存放结果
         String result;
 //        创建get方法
-        HttpGet get = new HttpGet("http://www.baidu.com");
+        HttpGet get = new HttpGet("http://localhost:8888/getCookies");
 //        执行get方法
         HttpClient httpClient = new DefaultHttpClient();
         HttpResponse response = httpClient.execute(get);
