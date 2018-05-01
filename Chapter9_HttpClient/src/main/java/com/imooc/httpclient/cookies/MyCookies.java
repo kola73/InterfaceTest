@@ -19,11 +19,15 @@ import java.util.ResourceBundle;
 这个是对上面那个MyHttpClient_Get的优化
 基本步骤如下
 1，在source里新建properties配置文件，里面配置好url，uri等参数。
-2，通过代码读取配置文件，这里我们通过java自带的ResourceBundle类读取配置文件
+2，通过代码读取配置文件，这里我们通过java自带的ResourceBundle类读取配置文件并进行优化
+3，获取cookies信息
+4，带着cookies信息去访问需要携带cookie才能访问的另一个接口请求
  */
 public class MyCookies {
     private String url;
     private ResourceBundle bundle;
+    //    用来存储cookies信息的变量
+    private CookieStore store;
 
     @BeforeTest
     public void beforeTest() {
@@ -47,12 +51,29 @@ public class MyCookies {
         result = EntityUtils.toString(response.getEntity(), "utf-8");
         System.out.println(result);
 //        获取cookies信息
-        CookieStore store = httpClient.getCookieStore();
+        this.store = httpClient.getCookieStore();
         List<Cookie> cookieList = store.getCookies();
         for (Cookie cookie : cookieList) {
             String name = cookie.getName();
             String value = cookie.getValue();
             System.out.println("name=" + name + " value=" + value);
+        }
+    }
+
+    @Test(dependsOnMethods = {"testGetCookies"})
+    public void testGetWithCookies() throws IOException {
+        String uri = bundle.getString("test.get.with.cookies");
+        HttpGet get = new HttpGet(this.url + uri);
+        DefaultHttpClient httpClient = new DefaultHttpClient();
+//        设置cookies信息
+        httpClient.setCookieStore(store);
+        HttpResponse response = httpClient.execute(get);
+//        获取响应状态码
+        int statusCode = response.getStatusLine().getStatusCode();
+        System.out.println("statusCode = " + statusCode);
+        if (statusCode == 200) {
+            String result = EntityUtils.toString(response.getEntity(),"utf-8");
+            System.out.println(result);
         }
     }
 }
