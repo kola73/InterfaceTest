@@ -1,4 +1,4 @@
-package com.imooc.httpclient.cookies;
+package com.imooc.test;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
@@ -14,66 +14,57 @@ import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-/*
-这个是对上面那个MyHttpClient_Get的优化
-基本步骤如下
-1，在source里新建properties配置文件，里面配置好url，uri等参数。
-2，通过代码读取配置文件，这里我们通过java自带的ResourceBundle类读取配置文件并进行优化
-3，获取cookies信息
-4，带着cookies信息去访问需要携带cookie才能访问的另一个接口请求
- */
 public class MyCookies {
     private String url;
     private ResourceBundle bundle;
-//        用来存储cookies信息的变量
+    //    用来存储cookie信息的变量
     private CookieStore store;
 
     @BeforeTest
-    public void beforeTest() {
-//        读取properties配置文件（里面要加上配置文件的名称）,另后面要加上Locale.CHINA防止乱码，切记！！！
+    public void beforetest() {
+//        读取配置文件
         bundle = ResourceBundle.getBundle("application", Locale.CHINA);
-//        获取properties配置文件里面的url
-        url = bundle.getString("test.url");
+//        读取配置文件的url信息
+        String url = bundle.getString("test.url");
     }
 
     @Test
-    public void testGetCookies() throws IOException {
+    public void getCookies() throws IOException {
         String result;
-//        从配置文件中读取uri
+//        读取配置文件的uri
         String uri = bundle.getString("getCookies.uri");
-//        从配置文件中拼接测试的url
+//        创建get方法
         HttpGet get = new HttpGet(this.url + uri);
-//        执行get方法(PS：httpclient无法获取cookies，所以这里用DefaultHttpClient）
+//        执行get方法
         DefaultHttpClient httpClient = new DefaultHttpClient();
         HttpResponse response = httpClient.execute(get);
-//       获取整个响应的全部内容，并把它转化为字符串(为了防止乱码，加上编码格式utf-8
+//        获得整个响应的全部内容，并转换为字符串
         result = EntityUtils.toString(response.getEntity(), "utf-8");
         System.out.println(result);
-//        获取cookies信息
+//        获取全部cookie
         this.store = httpClient.getCookieStore();
         List<Cookie> cookieList = store.getCookies();
         for (Cookie cookie : cookieList) {
             String name = cookie.getName();
             String value = cookie.getValue();
-            System.out.println("name=" + name + " value=" + value);
+            System.out.println("name=" + name + ",value=" + value);
         }
     }
 
-    @Test(dependsOnMethods = {"testGetCookies"})
-    public void testGetWithCookies() throws IOException {
+    @Test(dependsOnMethods = {"getCookies"})
+    public void getWithCookies() throws IOException {
         String uri = bundle.getString("test.get.with.cookies");
         HttpGet get = new HttpGet(this.url + uri);
         DefaultHttpClient httpClient = new DefaultHttpClient();
-//        设置cookies信息
+//        把获取的cookie放在这里/设置cookie信息
         httpClient.setCookieStore(store);
         HttpResponse response = httpClient.execute(get);
-//        获取响应状态码
+//        获取响应码
         int statusCode = response.getStatusLine().getStatusCode();
-        System.out.println("statusCode = " + statusCode);
+        System.out.println("statusCode=" + statusCode);
         if (statusCode == 200) {
             String result = EntityUtils.toString(response.getEntity(), "utf-8");
             System.out.println(result);
         }
     }
 }
-
